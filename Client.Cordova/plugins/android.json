@@ -7,13 +7,16 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.netvoxlab.ownradio"
-        },
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.netvoxlab.ownradio"
         },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.netvoxlab.ownradio"
+        },
         "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.netvoxlab.ownradio"
+        },
+        "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "com.netvoxlab.ownradio"
         }
     },

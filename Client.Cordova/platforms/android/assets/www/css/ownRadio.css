@@ -1,3 +1,17 @@
+.main {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url("img/background.png") 50% 50% no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
 .ownRadio {
   display: -ms-flexbox;
   display: flex;
@@ -7,7 +21,7 @@
   box-sizing: border-box;
   margin: auto;
   position: relative;
-  cursor: default;
+  cursor: default;  
 }
 
 .ownRadioPlayer {
@@ -42,11 +56,11 @@
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 3.08em;
-  height: 6.42em;
+  /* width: 3.08em; */
+  /* height: 6.42em; */
+  width: 90vw;
+  height: 90vh;
   padding-left: .02em;
-  background: url("img/iphone.png") 50% 50% no-repeat;
-  background-size: contain;
   position: relative;
 }
 
@@ -115,19 +129,25 @@
 }
 
 .ownRadioPlayer-name {
-  font-size: .25em;
+  font-size: 5vw;
   line-height: 1.15em;
   margin-bottom: .25em;
   color: #4eade2;
   text-align: center;
   font-weight: 500;
+  max-height: 2.4em;
+  overflow: hidden;
+  word-break: break-word;
 }
 
 .ownRadioPlayer-group {
-  font-size: .15em;
+  font-size: 4vw;
   line-height: 1.2em;
   color: #4a4a4a;
   text-align: center;
+  max-height: 2.4em;
+  overflow: hidden;
+  word-break: break-word;
 }
 
 .ownRadioPlayer-nextButton {
@@ -223,7 +243,7 @@
   }
 
   .ownRadioPlayer {
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 30px;
     font-size: 100px;
   }

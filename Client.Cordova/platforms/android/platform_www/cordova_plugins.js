@@ -196,16 +196,33 @@ module.exports = [
         "clobbers": [
             "SQLitePlugin"
         ]
+    },
+    {
+        "id": "cordova-plugin-file-transfer.FileTransferError",
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "id": "cordova-plugin-file-transfer.FileTransfer",
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.3.1",
     "cordova-plugin-compat": "1.1.0",
     "cordova-plugin-file": "4.3.1",
     "cordova-plugin-media": "2.4.1",
-    "cordova-sqlite-storage": "2.0.2"
+    "cordova-plugin-whitelist": "1.3.1",
+    "cordova-sqlite-storage": "2.0.2",
+    "cordova-plugin-file-transfer": "1.6.2"
 };
 // BOTTOM OF METADATA
 });
